@@ -6,7 +6,17 @@
         xmlns:local="clr-namespace:Device_Simulator_Tool"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        
+    <Grid Background="GhostWhite" RenderTransformOrigin="0.711,0.514">
+        <ComboBox x:Name="SelectedPort" HorizontalAlignment="Left" Margin="365,338,0,0" VerticalAlignment="Top" Width="120" RenderTransformOrigin="0.691,-2.627">
+            <ComboBoxItem>COM1</ComboBoxItem>
+            <ComboBoxItem>COM2</ComboBoxItem>
+            <ComboBoxItem>COM9</ComboBoxItem>
+            <ComboBoxItem>COM10</ComboBoxItem>
+            <ComboBoxItem>COM11</ComboBoxItem>
+        </ComboBox>
+        <Label Content="Port :" HorizontalAlignment="Left" Margin="303,334,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.582,0.268"/>
+        <Button x:Name="Port_Status" Content="Open Port" HorizontalAlignment="Left" Margin="524,338,0,0" VerticalAlignment="Top" Width="83" Height="51" RenderTransformOrigin="-1.418,0.346" Click="Open_Port"/>
+        <ScrollViewer x:Name="TextArea"  HorizontalAlignment="Left" Height="286" Margin="42,30,0,0" VerticalAlignment="Top" Width="690" Background="White"/>
+
     </Grid>
 </Window>
