@@ -100,7 +100,7 @@ namespace Device_Simulator_Tool
                     }
                  
                 }
-                serialPort.Write("AA55Bs99AC<GQ344GR344GS43GT22GU12GV11GW112>Ai33");
+                serialPort.Write("AA55Bs99AC<GQ344GR344GS55GT22.33.66.55.44.55.99GU12GV11GW112ER33>Au77AB<Au34Be32Cs234Ca'CallMeASAp'Bi33>Ai33");
             }
         }
         private void WriteData(string text)
